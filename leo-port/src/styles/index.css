@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --ivoryBlack: #1d2731;
+  --black: #000;
+  --white: #fff;
+  --darkWhite: #bbb;
+  --gray: #777;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: var(--ivoryBlack);
+  color: var(--darkWhite);
+}
+
+/* Landing Page */
+.landing-link {
+  color: var(--ivoryBlack);
+  text-decoration: none;
+  background-color: var(--white);
+  padding: 20px;
+  border-radius: 10px;
+  transition: ease-out .250s;
+}
+
+#landing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 97vh;
+  border: 5px var(--black) solid;
+}
+
+#creator-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+#creator-name {
+  margin: 0;
+  font-size: 100px;
+  font-style: italic;
+  text-shadow: 3px 3px 4px #000000;
+}
+
+#creator-greet {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+}
+
+#btn-container {
+  display: flex;
+  gap: 15px;
+}
+
+.landing-link:hover {
+  background-color: var(--black);
+  color: var(--darkWhite);
+  border-radius: 30px;
+  padding: 20px 100px;
+}

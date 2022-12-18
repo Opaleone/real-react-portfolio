@@ -6,6 +6,7 @@
   --white: #fff;
   --darkWhite: #bbb;
   --gray: #777;
+  --fullScreen: 97vh;
 }
 
 * {
@@ -21,7 +22,7 @@ body {
 .landing-link {
   color: var(--ivoryBlack);
   text-decoration: none;
-  background-color: var(--white);
+  background-color: var(--darkWhite);
   padding: 20px;
   border-radius: 10px;
   transition: ease-out .250s;
@@ -32,7 +33,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 97vh;
+  min-height: var(--fullScreen);
   border: 5px var(--black) solid;
 }
 
@@ -41,7 +42,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
 }
 
 #creator-name {
@@ -49,12 +49,18 @@ body {
   font-size: 100px;
   font-style: italic;
   text-shadow: 3px 3px 4px #000000;
+  color: #D4F4FF;
+  margin-bottom: 200px;
+  margin-top: 100px;
 }
 
 #creator-greet {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
+  text-shadow: 3px 3px 4px #000000;
+  color: #87A6AA;
+  margin: 10px;
 }
 
 #btn-container {
@@ -62,9 +68,55 @@ body {
   gap: 15px;
 }
 
+#profile-pic {
+  height: 400px;
+  position: absolute;
+  top: 15%;
+  left: 23%;
+  z-index: -9999;
+  border: 3px solid;
+  border-radius: 1px;
+  box-shadow: 5px 5px 20px var(--black);
+}
+
 .landing-link:hover {
-  background-color: var(--black);
-  color: var(--darkWhite);
+  background-color: #49545F;
+  color: #E49D22;
   border-radius: 30px;
   padding: 20px 100px;
+}
+
+
+/* About Me */
+
+#about-me-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: var(--fullScreen);
+  border: 5px var(--black) solid;
+}
+
+#about-title {
+  direction: rtl;
+  /* width: 20%; */
+  font-size: 40px;
+}
+
+#about-divider {
+  height: 12rem;
+  width: 10px;
+  margin: 0 30px;
+  background-color: #E49D22;
+  border-radius: 5px;
+}
+
+#bio {
+  width: 60%;
+}
+
+/* Projects */
+
+#project-page {
+  
 }

@@ -1,0 +1,20 @@
+{
+  "name": "real-react-portfolio",
+  "version": "1.0.0",
+  "description": "A do over of my previous React portfolio that I am creating with more experience.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Opaleone/real-react-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Opaleone/real-react-portfolio/issues"
+  },
+  "homepage": "https://github.com/Opaleone/real-react-portfolio#readme"
+}

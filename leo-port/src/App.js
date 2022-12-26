@@ -4,6 +4,7 @@ import { Landing } from "./pages/landing";
 import { AboutMe } from "./pages/aboutMe";
 import { Contact } from "./pages/contact";
 import { Projects } from "./pages/projectList";
+import { Navbar } from "./components/navbar";
 
 function App() {
   return (

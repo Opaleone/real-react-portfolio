@@ -1,6 +1,9 @@
+import { Navbar } from "../components/navbar"
+
 export const AboutMe = () => {
   return (
     <div id='about-me-container'>
+      <Navbar />
       <aside id='about-sidebar'>
         <p id='about-title'>About Me</p>
       </aside>

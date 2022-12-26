@@ -11,7 +11,7 @@ export const Landing = () => {
       <div id='btn-container'>
         <Link className='landing-link' to='/about-me'>About me</Link>
         <Link className='landing-link' to='/projects'>Projects</Link>
-        <Link className='landing-link' to='/contact-me'>Contact me</Link>
+        <a className='landing-link' href='https://drive.google.com/file/d/1QSy_CjrOSt14cVAAS68nZGwp-ZXCVBLX/view?usp=share_link' rel='noreferrer' target='_blank'>Resume</a>
       </div>
     </section>
   )

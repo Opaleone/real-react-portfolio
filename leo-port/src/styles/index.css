@@ -35,6 +35,11 @@ a {
   cursor: pointer;
 }
 
+.sm-link {
+  width: 40px;
+  cursor: pointer;
+}
+
 #landing-container {
   display: flex;
   flex-direction: column;
@@ -86,11 +91,25 @@ a {
   box-shadow: 5px 5px 20px var(--black);
 }
 
+#sm-link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  position: absolute;
+  bottom: 30px;
+  gap: 16px;
+}
+
 .landing-link:hover {
   background-color: #49545F;
   color: #E49D22;
   border-radius: 30px;
   padding: 20px 100px;
+}
+
+.sm-link:hover {
+  opacity: 0.6;
 }
 
 

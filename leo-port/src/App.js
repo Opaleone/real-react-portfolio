@@ -2,9 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import { Landing } from "./pages/landing";
 import { AboutMe } from "./pages/aboutMe";
-import { Contact } from "./pages/contact";
 import { Projects } from "./pages/projectList";
-import { Navbar } from "./components/navbar";
 
 function App() {
   return (
@@ -21,10 +19,6 @@ function App() {
         <Route
           path='/projects'
           element={<Projects />}></Route>
-
-        <Route
-          path='/contact-me'
-          element={<Contact />}></Route>
       </Routes>
     </Router>
   );
